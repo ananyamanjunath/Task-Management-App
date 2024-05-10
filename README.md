@@ -6,11 +6,12 @@
 
 ## Description
 
-The Task Management Application is a simple yet effective tool designed to help users organize their tasks efficiently. Built as an assignment for the first round of the full-stack developer job role at PedalStart, this application offers features for adding, updating, and deleting tasks, streamlining task management and enhancing productivity. Whether you're an individual user or part of a team, this application provides a user-friendly interface for seamless task tracking.
+The Task Management Application is a simple yet effective tool designed to help users organize their tasks efficiently. Built as an assignment for the first round of the full-stack developer job role at PedalStart, this application offers features for adding, updating, and deleting tasks, streamlining task management, and enhancing productivity. Whether you're an individual user or part of a team, this application provides a user-friendly interface for seamless task tracking.
 
 ## Features
 
 -   Mobile-friendly design for easy access and usability on various devices.
+-   Implemented error handling for both front-end and back-end components to ensure smooth user experience and robust application functionality.
 -   Add new tasks with titles, descriptions, and due dates.
 -   View a list of tasks with their details.
 -   Update tasks with new information.
