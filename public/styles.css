@@ -1,3 +1,5 @@
+/* styles.css, responsible for the styling of the application. */
+
 /* General body styling */
 body {
     font-family: Arial, sans-serif;
@@ -44,7 +46,7 @@ footer {
 #task-form label {
     display: block;
     margin: 10px 0 5px;
-    font-weight: bold; /* Added font weight */
+    font-weight: bold; 
 }
 
 #task-form input[type="text"],

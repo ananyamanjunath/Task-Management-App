@@ -1,5 +1,8 @@
+// taskModel.js, responsible for creating the Task model.
+
 const mongoose = require('mongoose');
 
+// Task schema
 const taskSchema = new mongoose.Schema({
   title: {
     type: String,

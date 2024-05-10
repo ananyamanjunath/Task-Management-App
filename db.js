@@ -1,10 +1,10 @@
-
-
-const mongoose = require('mongoose');
+// db.js, handles the database connection.
 
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost:27017/', {  // Replace with your actual URI
+const mongoose = require('mongoose');
+
+mongoose.connect('mongodb://localhost:27017/crud', { 
     useNewUrlParser: true, 
     useUnifiedTopology: true
 })

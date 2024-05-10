@@ -1,10 +1,10 @@
-// app.js
+// app.js, handles the front-end logic for the task manager application.
 
 document.addEventListener('DOMContentLoaded', function() {
     const taskForm = document.getElementById('task-form');
     const tasksList = document.getElementById('tasks-list');
 
-    // Fetch all tasks on initial load
+    // Fetches all tasks on initial load
     fetchTasks();
 
     // Event listener for form submission
@@ -43,8 +43,6 @@ document.addEventListener('DOMContentLoaded', function() {
             .catch(error => console.error('Error fetching tasks:', error));
     }
     
-    
-
     // Function to create a new task
     function createTask(taskData) {
         fetch('/api/tasks', {
@@ -57,7 +55,7 @@ document.addEventListener('DOMContentLoaded', function() {
         .then(response => response.json())
         .then(data => {
             console.log('Task created:', data);
-            fetchTasks(); // Refresh the tasks list
+            fetchTasks(); // Refreshes the tasks list
         })
         .catch(error => console.error('Error creating task:', error));
     }
