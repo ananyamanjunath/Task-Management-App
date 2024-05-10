@@ -2,8 +2,7 @@
 ### Mobile Preview
 ![iPhone-13-PRO-localhost (1)](https://github.com/ananyamanjunath/Task-Management-App/assets/109954683/809afefa-52ea-452b-9706-f2d663024714)
 ### Desktop Preview
-![Screenshot 2024-05-10 142613](https://github.com/ananyamanjunath/Task-Management-App/assets/109954683/92865ff0-5177-40ad-a7cd-4aba507c033c)
-
+![image](https://github.com/ananyamanjunath/Task-Management-App/assets/109954683/53f3dd02-f11e-4e03-a872-7af37f8904c5)
 
 ## Description
 
